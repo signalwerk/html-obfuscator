@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-
-import InnerHTML from "./DangerouslySetHtmlContent";
-
 import "./App.css";
 
 // https://stackoverflow.com/questions/21647928/javascript-unicode-string-to-hex
