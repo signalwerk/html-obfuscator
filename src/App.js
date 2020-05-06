@@ -42,7 +42,11 @@ function App() {
           multibyte strings (emojis). Furthermore, the goal was to have a
           compact restore code. <br />
           Check the{" "}
-          <a href="https://github.com/signalwerk/obfuscator" target="_blank">
+          <a
+            href="https://github.com/signalwerk/obfuscator"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             source code
           </a>{" "}
           for this tool.
