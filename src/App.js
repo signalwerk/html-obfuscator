@@ -29,8 +29,8 @@ const obfuscator = (address, content) => {
 };
 
 function App() {
-  const [content, setContent] = useState("demo@example.com");
-  const [address, setAddress] = useState("Mail me");
+  const [content, setContent] = useState("Mail me ✉️");
+  const [address, setAddress] = useState("demo@example.com");
   const { tag, script } = obfuscator(address, content);
   return (
     <div className="App">
@@ -40,14 +40,19 @@ function App() {
           There are many ways to obfuscate mail addresses. The approach shown
           here is optimized to have a general solution for all texts including
           multibyte strings (emojis). Furthermore, the goal was to have a
-          compact restore code.
+          compact restore code. <br />
+          Check the{" "}
+          <a href="https://github.com/signalwerk/obfuscator" target="_blank">
+            source code
+          </a>{" "}
+          for this tool.
         </p>
         <br />
         <br />
       </header>
       <div className="App-content">
         <label>
-          <div className="label-text">Address</div>
+          <div className="label-text">Text</div>
           <input
             name="use frontmatter"
             type="text"
@@ -57,7 +62,7 @@ function App() {
         </label>
         <br />
         <label>
-          <div className="label-text">Text</div>
+          <div className="label-text">Address</div>
           <input
             name="use frontmatter"
             type="text"
