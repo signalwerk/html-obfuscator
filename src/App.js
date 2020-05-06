@@ -36,6 +36,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>mail obfuscator</h1>
+        <p>
+          There are many ways to obfuscate mail addresses. The approach shown
+          here is optimized to have a general solution for all texts including
+          multibyte strings (emojis). Furthermore, the goal was to have a
+          compact restore code.
+        </p>
+        <br />
+        <br />
       </header>
       <div className="App-content">
         <label>
