@@ -21,7 +21,7 @@ const obfuscator = (address, content) => {
   const tag = `<a href="mailto:${address}">${content}</a>`;
   const hex = utf8ToHex(tag);
 
-  const script = `
+  const script = `<!-- obfuscator.signalwerk.ch -->
 <script>document.write(decodeURIComponent('%' + '${hex}'.match(/.{1,2}/g).join('%')));</script>
 <noscript>Turn on JavaScript to see the email address</noscript>`;
 
