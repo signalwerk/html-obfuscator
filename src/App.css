@@ -1,0 +1,56 @@
+.App {
+  text-align: left;
+  width: 94%;
+  max-width: 30rem;
+  margin: 0 auto;
+
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  margin-left: auto;
+}
+
+.App-input {
+  width: 100%;
+  height: 20rem;
+  font-size: 1rem;
+  font-family: inherit;
+  margin-bottom: 0.5rem;
+}
+
+.App-input--frontmatter {
+  height: 10rem;
+}
+
+.App-frontmatter {
+  width: 100%;
+}
+
+.App-header,
+.App-content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.App-header {
+  font-size: calc(10px + 2vmin);
+}
+
+.App-event {
+  width: 100%;
+  padding: 0.5rem;
+
+  background-color: #414752;
+  border-bottom: 1px solid #ffae00;
+}
+
+.App-event h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.App-event p {
+  font-size: 1rem;
+}
